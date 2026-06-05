@@ -1,106 +1,110 @@
 BITÁCORA DE TERMINAL - CLASE 36
 Código abierto, soberanía tecnológica y primeros pasos en terminal
 
-Nombre del estudiante:
-Fecha:
-Clase:
-Entorno usado:
+Nombre del estudiante: Sebastian Cardona Cano
+Fecha: 5 de junio del 2026
+Clase: 36
+Entorno usado: cursor
 
 1. ¿Qué es un sistema operativo?
-Respuesta:
+Respuesta: es el programa principal de nuestros dispositivos que actúa como el gerente o traductor entre tú y los componentes físicos de la máquina
 
 2. ¿Qué es el código abierto?
-Respuesta:
+Respuesta: es software cuyo "ingrediente secreto" o receta original (llamado código fuente) es público para que cualquiera pueda verlo, modificarlo y mejorarlo
 
 3. ¿Qué significa soberanía tecnológica?
-Respuesta:
+Respuesta:  es la capacidad de un país, organización o comunidad para controlar sus propias tecnologías y tomar decisiones sobre ellas sin depender de potencias extranjeras o de un pequeño grupo de empresas multinacionales
 
 4. ¿Qué es Linux?
-Respuesta:
+Respuesta: es un sistema operativo de código abierto, diseñado para ser el motor que controla computadoras, servidores y todo tipo de dispositivos tecnológicos
 
 5. ¿Qué es Debian?
-Respuesta:
+Respuesta: es uno de los sistemas operativos de código abierto más antiguos, respetados y utilizados del mundo, construido sobre el motor de Linux
 
 6. ¿Qué es un servidor?
-Respuesta:
+Respuesta: es una computadora especializada que está encendida las 24 horas del día para guardar información y "servir" datos a otros dispositivos conectados a internet
 
 7. ¿Qué es una terminal?
-Respuesta:
+Respuesta: es una aplicación de texto que sirve para darle órdenes directas a tu computadora escribiendo comandos con el teclado, sin usar el mouse
 
 8. Comandos ejecutados y resultado observado:
 
 Comando: whoami
-Resultado:
+Resultado: desktop-jh9006\usuario
 
 Comando: hostname
-Resultado:
+Resultado: desktop-jh9006
 
 Comando: date
-Resultado:
+Resultado: La fecha actual es: vie. 05/06/2026
 
 Comando: pwd
-Resultado:
+Resultado: path
 
 Comando: ls
-Resultado:
+Resultado: archivos creados
 
 Comando: ls -la
-Resultado:
+Resultado: carpetas y archivos
 
 Comando: mkdir practica-linux
-Resultado:
+Resultado: crea una carpeta llamada practica-linux
 
 Comando: cd practica-linux
-Resultado:
+Resultado: ingresa a la carpeta creada
 
 Comando: touch notas.txt
-Resultado:
+Resultado: crea un archivo con ese nombre
 
 Comando: echo "Mi primera practica en terminal Debian" > notas.txt
-Resultado:
+Resultado: en el archivo llamado notas ingresa el texto
 
 Comando: cat notas.txt
-Resultado:
+Resultado: visualiza el archivo notas
 
 Comando: cp notas.txt copia-notas.txt
-Resultado:
+Resultado: copia el archivo
 
 Comando: mv copia-notas.txt notas-renombradas.txt
-Resultado:
+Resultado: Su efecto es que el archivo cambió de nombre
 
 Comando: mkdir respaldo
-Resultado:
+Resultado: Crea una carpeta nueva llamada "respaldo" en el directorio actual
 
 Comando: mv notas-renombradas.txt respaldo/
-Resultado:
+Resultado: Mueve el archivo renombrado dentro de la carpeta "respaldo"
 
 Comando: df -h
-Resultado:
+Resultado: Muestra una tabla con el espacio total, usado y disponible de tus discos duros en formato legible
 
 Comando: free -h
-Resultado:
+Resultado: Muestra la cantidad de memoria RAM y memoria de intercambio total, usada y libre del sistema
 
 Comando: uname -a
-Resultado:
+Resultado: Muestra los detalles del sistema operativo 
 
 Comando: history
-Resultado:
+Resultado: Muestra una lista numerada con todos los comandos que has escrito previamente en esa sesión de la terminal
 
 Comando: ip a
+Resultado: Muestra las interfaces de red de tu computadora y sus respectivas direcciones IP
+
 Comando: top
-Resultado:
-Respuesta:
-10. ¿Qué aprendí sobre el uso responsable de la terminal?
-
-11. ¿Qué información no debo publicar en capturas o evidencias?
-
-12. ¿Qué cuidados debo tener al trabajar en un servidor?
-Respuesta:
-13. ¿Cómo se relaciona la terminal con la soberanía tecnológica?
-Respuesta:
-Respuesta:
-Respuesta:
+Resultado: Muestra una pantalla interactiva en tiempo real con los procesos que se están ejecutando, el consumo de CPU y la memoria de cada programa
 
 9. ¿Qué comando me pareció más útil y por qué?
+Respuesta: El comando df -h (o free -h) suele ser el más útil al principio, porque te permite conocer al instante el estado de salud de tu computadora (disco y memoria) con solo cuatro letras, algo que en la interfaz visual requiere abrir varias ventanas
 
-Resultado:
+10. ¿Qué aprendí sobre el uso responsable de la terminal?
+Respuesta: Aprendí que la terminal es una herramienta sumamente poderosa que no tiene "papelera de reciclaje". Si borras algo por accidente o ejecutas un comando incorrecto, los cambios son inmediatos y permanentes. Por ello, se debe leer bien cada comando antes de presionar Enter
+
+11. ¿Qué información no debo publicar en capturas o evidencias?
+Respuesta: Nunca se deben publicar direcciones IP públicas (que muestra ip a), nombres de usuario o de la máquina (que muestra uname -a), contraseñas en texto plano, ni claves SSH. Exponer estos datos le da pistas a personas malintencionadas para intentar hackear el sistema.
+
+12. ¿Qué cuidados debo tener al trabajar en un servidor?
+Respuesta: verificar siempre en qué servidor estás conectado para no confundirlo con tu computadora local.Evitar el uso innecesario del usuario administrador (root) o el comando sudo.Hacer un respaldo antes de modificar cualquier archivo de configuración.
+
+13. ¿Cómo se relaciona la terminal con la soberanía tecnológica?
+Respuesta: La terminal es el puente directo hacia la autonomía digital. Al dominar la terminal, dejas de depender de las interfaces visuales simplificadas que diseñan las grandes corporaciones extranjeras para el usuario común. Te permite administrar tus propios sistemas, gestionar servidores independientes y auditar exactamente qué está haciendo tu computadora sin intermediarios.
+
+
